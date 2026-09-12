@@ -51,9 +51,10 @@ dotnet run
 เปิด Terminal อีกหนึ่งอันในโฟลเดอร์ frontend
 
 ```powershell
-Copy-Item .env.example .env.local (ครั้งแรกครั้งเดียวหรือถ้ามีเปลี่ยน url ด้วย powershell)
+Copy-Item .env.example .env.local (**รันด้วย powershell ครั้งแรกครั้งเดียวหรือถ้ามีเปลี่ยน url)
 ```
 
+(**รันด้วย cmd)
 ```cmd
 npm ci
 npm run dev
