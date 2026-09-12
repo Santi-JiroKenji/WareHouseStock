@@ -1,0 +1,66 @@
+@use '../styles/warehouse';
+@use '../styles/login';
+@import url('tailwindcss');
+  
+@import url('tw-animate-css');
+  
+@custom-variant dark (&:is(.dark *));
+  
+:root {
+  --background:#fff;
+  --foreground:#263b42;
+  --card:#fff;
+  --card-foreground:#263b42;
+  --popover:#fff;
+  --popover-foreground:#263b42;
+  --primary:#315967;
+  --primary-foreground:#fff;
+  --secondary:#eff2f3;
+  --secondary-foreground:#384b52;
+  --muted:#f5f6f6;
+  --muted-foreground:#66767c;
+  --accent:#e8f0f2;
+  --accent-foreground:#315967;
+  --destructive:#c63737;
+  --border:#dfe4e6;
+  --input:#ccd5d9;
+  --ring:#315967;
+  --radius:.25rem;
+  --sidebar:#fff;
+  --sidebar-foreground:#50626a;
+  --sidebar-primary:#315967;
+  --sidebar-primary-foreground:#fff;
+  --sidebar-accent:#e8f0f2;
+  --sidebar-accent-foreground:#315967;
+  --sidebar-border:#dfe4e6;
+  --sidebar-ring:#315967
+}
+
+@theme inline {
+  --color-background:var(--background);
+  --color-foreground:var(--foreground);
+  --color-popover:var(--popover);
+  --color-popover-foreground:var(--popover-foreground);
+  --color-primary:var(--primary);
+  --color-primary-foreground:var(--primary-foreground);
+  --color-secondary:var(--secondary);
+  --color-secondary-foreground:var(--secondary-foreground);
+  --color-muted:var(--muted);
+  --color-muted-foreground:var(--muted-foreground);
+  --color-accent:var(--accent);
+  --color-accent-foreground:var(--accent-foreground);
+  --color-destructive:var(--destructive);
+  --color-border:var(--border);
+  --color-input:var(--input);
+  --color-ring:var(--ring);
+  --color-sidebar:var(--sidebar);
+  --color-sidebar-foreground:var(--sidebar-foreground);
+  --color-sidebar-accent:var(--sidebar-accent);
+  --color-sidebar-accent-foreground:var(--sidebar-accent-foreground);
+  --color-sidebar-border:var(--sidebar-border);
+  --radius-lg:var(--radius)
+}
+
+
+@include warehouse.styles;
+@include login.styles;
