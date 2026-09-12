@@ -439,7 +439,6 @@ export default function WarehouseApp() {
                     </div> 
 
                     <aside className="metrics" aria-label="สรุปคลังสินค้า">
-                        <h2 className="rail-heading">สรุปคลังสินค้า</h2>
                         {
                             [
                                 { label: 'รายการสินค้าทั้งหมด', value: products.length, unit: 'รายการ', icon: Package, color: 'blue', sub: 'สินค้าที่ลงทะเบีนในคลัง' }, 
