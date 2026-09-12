@@ -51,7 +51,7 @@ dotnet run
 เปิด Terminal อีกหนึ่งอันในโฟลเดอร์ frontend
 
 ```powershell
-Copy-Item .env.example .env.local (ครั้งแรกครั้งเดียว)
+Copy-Item .env.example .env.local (ครั้งแรกครั้งเดียวหรือถ้ามีเปลี่ยน url ด้วย powershell)
 ```
 
 ```cmd
